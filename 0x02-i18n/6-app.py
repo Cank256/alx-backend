@@ -10,6 +10,9 @@ app = Flask(__name__)
 babel = Babel(app)
 
 
+"""
+Use user locale
+"""
 class Config:
     """
     Config class for Flask app
